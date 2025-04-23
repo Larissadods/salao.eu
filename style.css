@@ -4,6 +4,7 @@ body {
 
 header {
     padding-top: 0 auto;
+    background-color: #f3cb80;
 }
 
 .cabeça {
@@ -13,13 +14,14 @@ header {
 } 
 
 .logo-preta {
-    margin-left: 20px;
+    width: 1020px;
+    margin-left: 50px;
 }
 
 nav {
     position: absolute;
-    top: 300px;
-    right: 25%;
+    top: 250px;
+    right: 27%;
 }
 
 nav li {
@@ -37,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(232, 183, 85);
+    color: #e9ab38;
     text-decoration: underline;
 }
 
@@ -102,18 +104,20 @@ td, th {
 
 .banner {
     width: 50%;
-    float: left;
-    margin: 0 20px 20px 0;
+    float: top;
+    margin: 0 2px 0;
+    padding-left: 450px;
 }
 
 .principal {
-    padding: 3em 0;
-    background: #FEFEFE;
+    background: white;
+    padding: 30px;
 }
 
 .principal p {
-    margin: 0 0 1em;
-    font-size: 20px;
+    margin: 0 1em;
+    font-size: 30px;
+    padding: 25px;
 }
 
 .mapa {
@@ -135,7 +139,7 @@ td, th {
     text-align: center;
     font-size: 2em;
     font-weight: 100;
-    margin: 0 0 2em;
+    margin: 0 0 1em;
 }
 
 .beneficios {
